@@ -4,8 +4,8 @@ SPA *Mobile First* de la plataforma institucional de reconocimientos UCO Kudos.
 
 | | |
 |---|---|
-| **URL pública** | `https://CAMBIAR.onrender.com` |
-| **Back-End y documentación de arquitectura** | repositorio `uco-kudos-api` (carpeta `docs/`) |
+| **URL pública** | https://uco-kudos-web.onrender.com |
+| **Back-End y documentación de arquitectura** | https://github.com/andru127/uco-kudos-api (carpeta `docs/`) · API: https://uco-kudos-api.onrender.com |
 | **Stack** | React 19 · TypeScript (estricto) · Vite · Vitest + Testing Library · Playwright |
 
 ## Funcionalidades
