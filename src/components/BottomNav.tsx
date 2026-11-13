@@ -6,7 +6,6 @@ const ITEMS: { view: View; icon: string; label: string }[] = [
   { view: 'profile', icon: '👤', label: 'Perfil' },
 ];
 
-/** Navegación inferior: el patrón más cómodo para el pulgar en móviles (Mobile First, DRV-001). */
 export function BottomNav({ current, onChange }: { current: View; onChange: (view: View) => void }) {
   return (
     <nav className="bottom-nav" aria-label="Navegación principal">

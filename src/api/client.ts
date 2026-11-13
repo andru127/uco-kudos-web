@@ -12,7 +12,6 @@ export class ApiError extends Error {
   }
 }
 
-/** Convierte respuestas Problem Details (RFC 9457) del back-end en mensajes legibles. */
 async function toApiError(response: Response): Promise<ApiError> {
   try {
     const problem = (await response.json()) as { detail?: string; title?: string };

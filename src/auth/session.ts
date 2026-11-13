@@ -3,10 +3,6 @@ import type { User } from '../api/types';
 const TOKEN_KEY = 'uco-kudos.token';
 const USER_KEY = 'uco-kudos.user';
 
-/**
- * sessionStorage: la sesión se borra al cerrar la pestaña. Compromiso documentado en el ADR de seguridad:
- * en la arquitectura objetivo se usaría una cookie HttpOnly emitida por un BFF.
- */
 export const session = {
   token(): string | null {
     return sessionStorage.getItem(TOKEN_KEY);
