@@ -138,3 +138,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--green); out
 @media (prefers-reduced-motion: reduce) {
   .toast { animation: none; }
 }
+
+.logo-img { width: 36px; height: 36px; border-radius: 8px; background: #fff; object-fit: contain; }
+.logo-img--large { width: 80px; height: 80px; border-radius: 16px;
+}

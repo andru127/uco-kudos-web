@@ -58,7 +58,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <span className="logo" aria-hidden="true">★</span>
+        <img className="logo-img" src="/OIP.png" alt="" />
         <h1>UCO Kudos</h1>
       </header>
       <main className="content">

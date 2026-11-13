@@ -28,7 +28,7 @@ export function LoginView({ onLoggedIn }: Props) {
   return (
     <main className="login">
       <div className="login__brand">
-        <span className="logo" aria-hidden="true">★</span>
+        <img className="logo-img logo-img--large" src="/OIP.png" alt="Universidad Católica de Oriente" />
         <h1>UCO Kudos</h1>
         <p>Reconoce lo que hace grande a nuestra comunidad</p>
       </div>
